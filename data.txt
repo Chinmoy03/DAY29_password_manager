@@ -1,0 +1,9 @@
+test.com | csahoo@ualberta.ca | test_password
+test.com | csahoo@ualberta.ca | test_password
+test2.com | csahoo@ualberta.ca | test2_password
+test3 | csahoo@ualberta.ca | test3_password
+test4 | csahoo@ualberta.ca | test4_password
+test5 | csahoo@ualberta.ca | test5_password
+test6 |  | test6_password
+test7_password generate testing | csahoo@ualberta.ca | 0x$Er$kcF0a*%Tc
+test8_copying_generated_pass_to_clipboard_SUCCESS | csahoo@ualberta.caU455wMs&Lb#Y#fyW | U455wMs&Lb#Y#fyW

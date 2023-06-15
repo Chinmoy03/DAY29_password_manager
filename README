@@ -1,0 +1,6 @@
+Password Manager Project
+Features:
+-can generate password and copy it to the clipboard
+- has error message for empty fields
+- has prefilled email
+- has a save confirmation message box

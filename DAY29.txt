@@ -1,0 +1,53 @@
+
+-HOW TO PLACE A WIDGET OVER MULTIPLE ROWS OR COLUMNS
+WHILE USING THE GRID() FUNCTION?
+We are going to use new attributes in the grid() function
+
+eg: grid(row=2, column=0, rowspan=2, columnspan=2)
+
+The meaning of the above example is that the widget being placed
+starts from row 2 and column 0 and uses as many rows and columns
+as specified by rowspan and columnspan
+
+2.
+Aligning widgets in the grid
+Use the attribute 'sticky' in grid() method
+Allowed values:
+"e" : Right Align (east)
+"w" : Left Align (west)
+"n" : Top align (north)
+"s" : Bottom align (south)
+
+3.
+Setting preset in the entry field
+Use the insert() method
+Two attributes of insert()
+- Position: where to insert the text (very useful when there
+is existing text in the entry widget.
+END: a tkinter keyword that states to enter the new text
+after the preexisting text (highest available index)
+- text: Attribute to state what text is to be entered
+
+4.
+Dialog Boxes and Pop-ups
+We can use a tkinter module called messagebox (Remember that it is not a class, but a module)
+NOTE: using from tkinter import * will not import messagebox module
+because the above line of code only imports classes and not other features in the package
+
+eg: messagebox.showinfo(title=, message=)
+NOTE: The above statement returns a boolean value
+We can use the boolean value to reject action if "cancel" is pressed and accept action when "ok" pressed.
+see line 18 in main.py
+
+5.
+join() function
+This method creates a string by joining the elements of a tuple or list etc
+
+syntax: <string1>.join(<list>)
+string1 will become the delimiter between each element when creating string
+
+
+6.
+To copy something into the clip board (Pyperclip)
+import pyperclip
+pyperclip.copy(<thing to be copied>)
